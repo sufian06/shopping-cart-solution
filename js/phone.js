@@ -27,6 +27,9 @@ document
     const newPhoneNumber = updatePhoneNumber(true);
 
     updatePhoneTotalPrice(newPhoneNumber);
+
+    // calculate total
+    calculateSubTotal();
   });
 
 document
@@ -36,4 +39,7 @@ document
     const newPhoneNumber = updatePhoneNumber(false);
 
     updatePhoneTotalPrice(newPhoneNumber);
+
+    // calculate total
+    calculateSubTotal();
   });
